@@ -18,12 +18,16 @@ def realizar_operacao(pilha, operador):
     
     if operador == "+":
         resultado = y + x 
+        print("+ ")
     elif operador == "-":
         resultado = y - x
+        print("- ")
     elif operador == "*":
         resultado = y * x
+        print("* ")
     elif operador == "/":
         resultado = y / x
+        print("/ ")
     else:
         return print("Caracter inválido")
     
